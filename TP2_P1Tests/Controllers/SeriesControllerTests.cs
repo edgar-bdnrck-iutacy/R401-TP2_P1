@@ -15,7 +15,7 @@ namespace TP2_P1.Controllers.Tests
     public class SeriesControllerTests
     {
         private const string ConnectionString =
-            "Server=localhost;port=5432;Database=SeriesDB;uid=postgres;password=postgres;";
+            "Server=51.83.36.122;port=5432;Database=SeriesDB_Edgar;uid=info2;password=info2;";
 
         private SeriesDbContext _context = null!;
         private SeriesController _controller = null!;
