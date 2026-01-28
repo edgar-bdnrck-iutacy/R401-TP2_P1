@@ -2,8 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using TP2_P1.Models.EntityFramework;
 using TP2_P1.Controllers;
 
-// Bjr
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
